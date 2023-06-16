@@ -1,10 +1,22 @@
-- 👋 Hi, I’m @SrivaniAnnaladasu
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+<dependencies>
+    <!-- Spring Boot Starter -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
 
-<!---
-SrivaniAnnaladasu/SrivaniAnnaladasu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    <!-- Testcontainers Dependency -->
+    <dependency>
+        <groupId>org.testcontainers</groupId>
+        <artifactId>testcontainers</artifactId>
+        <version>1.16.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Database Driver Dependency (Replace with your specific database driver) -->
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.2.19</version>
+    </dependency>
+</dependencies>
